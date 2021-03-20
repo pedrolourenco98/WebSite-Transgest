@@ -7,7 +7,9 @@ body {
 header {
   background: #2873e8;
 }
-
+.container-fluid{
+  padding: 0 100px 0 100px;
+}
 .logotipo-navbar {
   width: 150px;
 }
@@ -22,7 +24,7 @@ header {
   padding: 0;
   display: flex;
   list-style: none;
-  align-items: center;
+  align-items: left;
 }
 
 .nav-link {
@@ -49,4 +51,18 @@ header {
   text-decoration: underline;
   text-underline-offset: 7px;
   border-width: 10px;
+}
+
+/*telefone*/ 
+@media (max-width: 575.98px) {
+  .container-fluid{
+    padding: 0 8px 0 8px;
+  }
+  .navbar ul {
+   padding:20px 0 16px 0;
+  }
+ 
+}
+.fundo{
+  background-image: url(./imagens/fundo1.png)
 }
