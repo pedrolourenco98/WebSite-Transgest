@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
-
 html,
 body,
 div,
@@ -129,221 +127,141 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-/* Navbar */
-
-.background-image {
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
-  background-image: url("../imagens/backgroundImage.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: #464646;
-}
-
-h1 {
-  font-size: 48px;
-  color: white;
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-h3 {
-  font-size: 42px;
-  color: white;
-  font-weight: bold;
-}
-p {
-  font-size: 18px;
-  color: #fff;
+.btn {
+  border-radius: 55px;
+  padding: 12px 32px;
   font-weight: 300;
-  line-height: 1.4;
+  font-size: 14px;
 }
-b {
-  font-weight: 600;
+
+.red {
+  background-color: #ef4166;
 }
-.noselect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.logotipo-navbar {
+
+/* Barra de Navegação */
+.logotipo {
   width: 170px;
 }
 
-.navbar {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: left;
-}
-
-.nav-link {
-  color: white;
-}
-
-.navbar li {
-  position: relative;
+.color-navbar {
+  background-color: #3080fd;
 }
 
 .navbar a {
-  display: flex;
-  justify-content: space-between;
   font-size: 14px;
-  font-weight: 400;
-  color: #fff;
-  margin-right: 6px;
-  margin-left: 6px;
-  white-space: nowrap;
+  font-weight: 300;
 }
 
-.navbar a:hover,
-.active {
-  text-decoration: underline;
-  text-underline-offset: 7px;
-  border-width: 10px;
+.navbar li {
+  margin-left: 12px;
 }
 
 /* Homepage */
 
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../imagens/backgroundImage.png") top center;
+.banner-image {
+  background-image: url("../images/backgroundImage.png");
   background-size: cover;
-  position: relative;
-}
-
-#hero:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero .container {
-  padding-top: 72px;
-  position: relative;
-  text-align: center;
-}
-
-.button {
-  border-radius: 50px;
-  background-color: #ef4166;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 14px 32px;
-  border: none;
-  transition: 0.4s ease-in-out;
-}
-
-.border-button {
-  border-radius: 50px;
-  background-color: transparent;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 14px 32px;
-  border-color: white;
-  outline: none;
-  margin-left: 10px;
-  box-shadow: none;
-}
-
-/*página inicial
-.inicio {
   height: 100vh;
-  margin-top: -86px;
 }
-.botao {
-  border-radius: 50px;
-  background-color: #ef4166;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 14px 32px;
-  border: none;
-  transition: 0.4s ease-in-out;
+
+.texto-info {
+  margin-bottom: 24px;
 }
-.bordabotao {
-  border-radius: 50px;
-  background-color: transparent;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 14px 32px;
-  border-color: white;
-  outline: none;
-  margin-left: 10px;
-  box-shadow: none;
-  outline: 0;
+.texto-info h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
 }
-.botao:hover {
+
+.texto-info p {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.btn-sabermais {
+  margin-right: 8px;
+}
+
+.btn-sabermais:hover {
   background-color: #1da7bc;
 }
-.btn:hover {
-  color: white;
-}
-*/
-/*Solução
+
+/* Solução */
+
 .solucao {
-  width: 100%;
-  height: 75vh;
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
-.computador {
+
+.texto-solucao {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  margin-bottom: 24px;
 }
 
-.beneficios {
-  width: 100%;
-  height: 82vh;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #fcfcfc;
-}
-
-.sobrenos:hover {
+.texto-solucao h1 {
+  font-size: 32px;
+  font-weight: 600;
   color: #3080fd;
+  margin-bottom: 8px;
+}
+.texto-solucao p {
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.circulo-pontilhado {
-  position: relative;
+.paragrafo-solucao p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: left;
+  text-justify: inter-word;
+}
+
+/* Beneficios */
+
+.benificios {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.texto-info-benificios {
+  margin-bottom: 48px;
+}
+
+.texto-info-benificios h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #304574;
+  margin-bottom: 8px;
+}
+
+.texto-info-benificios h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #b6b7b9;
+  margin-bottom: 8px;
+}
+
+.list-beneficios li {
+  margin-bottom: 32px;
+}
+
+.circle-points {
   padding: 20px;
   background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23A2B3ECFF' stroke-width='3' stroke-dasharray='2%2c 10' stroke-dashoffset='33' stroke-linecap='butt'/%3e%3c/svg%3e");
   border-radius: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 56px;
+  margin-right: 58px;
 }
 
-.titulo-beneficios {
-  font-size: 16px;
-  font-weight: 600;
-  color: #666666;
-}
-
-.circulo {
+.circle {
   width: 56px;
   height: 56px;
   border-radius: 50%;
@@ -360,55 +278,30 @@ b {
   align-items: center;
   justify-content: center;
 }
-*/
-
-/*telefone */
 
 @media (max-width: 575.98px) {
-  /* Navbar */
-
-  .navbar ul {
-    margin-top: 24px;
+  .texto-info h1 {
+    font-size: 36px;
   }
 
-  .navbar li {
-    margin-top: 12px;
-    margin-bottom: 12px;
+  .texto-info p {
+    font-size: 14px;
   }
 
-  .navbar a {
-    font-size: 16px;
+  .banner-image {
+    padding-top: 250px;
+    padding-bottom: 200px;
+    background-image: url("../images/backgroundImage.png");
+    background-size: cover;
+    height: 50vh;
   }
 
-  /* Homepage */
-}
-
-@media (max-width: 767.98px) {
-  /* Navbar */
-  .navbar ul {
-    margin-top: 24px;
+  .texto-solucao {
+    display: block;
   }
 
-  .navbar li {
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
-  .navbar a {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 991.98px) {
-  /* Navbar */
-  .navbar ul {
-    margin-top: 24px;
-  }
-  .navbar li {
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
-
-  .navbar a {
-    font-size: 16px;
+  .item-benefecios {
+    position: relative;
+    display: list-item;
   }
 }
