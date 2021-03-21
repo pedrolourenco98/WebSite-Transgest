@@ -1,220 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trangest - Software de Gestão de Transportes</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- Navbar  -->
-    <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img class="logotipo" src="./images/logotipo.png" alt="Transgest" /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="mx-auto"></div>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Sobre</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trangest - Software de Gestão de Transportes</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar  -->
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="logotipo" src="./images/logotipo.png" alt="Transgest" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Funcionalidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Módulos Adicionais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Homepage -->
+  <main>
+    <div class="banner-image d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="texto-info">
+          <h1 class="noselect">
+            Software de Gestão<br />
+            Pensado para Transportadoras
+          </h1>
+          <p>Somos um software desenvolvido para empresas de Transporte e Logística.</p>
+        </div>
+        <div class="d-flex">
+          <button type="button" class="btn red text-white btn-sabermais">Saber Mais</button>
+          <button type="button" class="btn btn-outline-light">Funcionalidades</button>
+        </div>
+      </div>
+    </div>
+    <!-- Solução -->
+    <div class="solucao">
+      <div class="container">
+        <div class="col-lg-6">
+          <div class="texto-solucao">
+            <h1 class="noselect">Solução</h1>
+            <p class="textoligacao">Toda a informação sobre nós aqui</p>
+          </div>
+          <div class="paragrafo-solucao">
+            <p style="color: #797b84">
+              O <b>Transgest</b> é uma programa online desenvolvido especialmente para
+              <b>empresas de transporte de mercadorias e logística.</b>
+              <br />
+              <br />
+              É uma solução que permite às empresas do setor centralizar todo o seu trabalho diário numa
+              <b>única plataforma</b> e evitando que seja necessário usar vários programas ou ficheiros excel para o
+              trabalho
+              diário.
+              <br />
+              <br />
+              Este software permite-lhe ter um <b>website com área de cliente</b> integrada e track & trace onde os seus
+              clientes podem realizar e consultar envios, recolhas, reembolsos, faturação entre outros.
+              <br />
+              <br />
+              Permite-lhe ainda <b>configurar tabelas</b> de preço,e emitir a faturação automáticamente e ter uma
+              análise das
+              despesas e rentabilidade da frota.
+            </p>
+          </div>
+          <button type="button" class="btn blue text-white mt-5">Agendar Demonstração</button>
+        </div>
+
+        <!-- Colocar Imagem-->
+      </div>
+      <img class="img-fluid computador" style="float: right; margin-top: -490px; width: 35%"
+        src="./images/imagemComputador.png" alt="computador" />
+    </div>
+
+    <!-- Adapte-se a Nós-->
+    <div class="beneficios">
+      <div class="container">
+        <div class="col-lg-10">
+          <div class="texto-info-benificios">
+            <h1 class="noselect">Adapta-se ao seu negócio!</h1>
+            <h4>Benefícios</h4>
+          </div>
+          <div>
+            <ul class="lista-beneficios">
+              <li class="item-benefecios d-flex justify-content-between align-items-center mb-5">
+                <div class="circle-points">
+                  <div class="circle"><span>1</span></div>
+                </div>
+                <div class="texto-beneficios">
+                  <h6 class="titulo-beneficios">100% Online, Intuíva e Fácil de Usar
+                  </h6>
+                  <p style="color: #797b84">
+                    É totalmente online, não precisa ser instalada no seu computador ou no dos seus clientes.
+                    Além disso, apostamos na rapidez e facilidade de utilização. Por isso, as ferramentas e o
+                    design da nossa aplicação são muito intuitivas e fáceis de usar.
+                  </p>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Funcionalidades</a>
+              <li class="d-flex justify-content-between align-items-center mb-5">
+                <div class="circle-points">
+                  <div class="circle"><span>2</span></div>
+                </div>
+                <div class="texto-beneficios">
+                  <h6 class="titulo-beneficios">Faturação e Contas Correntes Integradas</h6>
+                  <p style="color: #797b84">
+                    O Transgest integra já software de faturação, certificado pela AT, que lhe permite faturar
+                    tudo de forma automática. Integra ainda a possibilidade dos clientes consultarem
+                    a sua conta corrente.
+                  </p>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Módulos Adicionais</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contactos</a>
+              <li class="d-flex justify-content-between align-items-center mb-5">
+                <div class="circle-points">
+                  <div class="circle"><span>3</span></div>
+                </div>
+                <div class="texto-beneficios">
+                  <h6 class="titulo-beneficios">Website com Área de Cliente</h6>
+                  <p style="color: #797b84">
+                    Integre o programa na totalidade com o seu website e inclua uma área de cliente e
+                    track & trace. Se ainda não tiver website, desenvolvemos à imagem da sua empresa.
+                  </p>
+                </div>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <!-- Homepage -->
-    <main>
-      <div class="banner-image d-flex justify-content-center align-items-center">
-        <div class="container">
-          <div class="texto-info">
-            <h1 class="noselect">
-              Software de Gestão<br />
-              Pensado para Transportadoras
-            </h1>
-            <p>Somos um software desenvolvido para empresas de Transporte e Logística.</p>
-          </div>
-          <div class="d-flex">
-            <button type="button" class="btn red text-white btn-sabermais">Saber Mais</button>
-            <button type="button" class="btn btn-outline-light">Funcionalidades</button>
-          </div>
-        </div>
       </div>
-      <!-- Solução -->
-      <div class="solucao">
-        <div class="container">
-          <div class="col-lg-7">
-            <div class="texto-solucao">
-              <h1 class="noselect">Solução</h1>
-              <p>Toda a informação sobre nós aqui</p>
-            </div>
-            <div class="paragrafo-solucao">
-              <p style="color: #797b84">
-                O <b>Transgest</b> é uma programa online desenvolvido especialmente para
-                <b>empresas de transporte de mercadorias e logística.</b>
-                <br />
-                <br />
-                É uma solução que permite às empresas do setor centralizar todo o seu trabalho diário numa
-                <b>única plataforma</b> e evitando que seja necessário usar vários programas ou ficheiros excel para o trabalho
-                diário.
-                <br />
-                <br />
-                Este software permite-lhe ter um <b>website com área de cliente</b> integrada e track & trace onde os seus
-                clientes podem realizar e consultar envios, recolhas, reembolsos, faturação entre outros.
-                <br />
-                <br />
-                Permite-lhe ainda <b>configurar tabelas de preço</b>, e emitir a faturação automáticamente e ter uma análise das
-                despesas e rentabilidade da frota.
-              </p>
-            </div>
-            <button type="button" class="btn blue text-white mt-5">Agendar Demonstração</button>
-          </div>
+    </div>
 
-          <!-- Colocar Imagem-->
+    <!-- App Motoristas -->
+
+    <!-- Solução -->
+    <div class="solucao">
+      <div class="container">
+        <div class="col-lg-7">
+          <div class="texto-solucao">
+            <h1 class="noselect">App para Motoristas</h1>
+            <p class="textoligacao">Toda a informação sobre nós aqui</p>
+          </div>
+          <div class="paragrafo-solucao">
+            <p style="color: #797b84">
+              O <b>Transgest</b> é uma programa online desenvolvido especialmente para
+              <b>empresas de transporte de mercadorias e logística.</b>
+              <br />
+              <br />
+              É uma solução que permite às empresas do setor centralizar todo o seu trabalho diário numa
+              <b>única plataforma</b> e evitando que seja necessário usar vários programas ou ficheiros excel para o
+              trabalho
+              diário.
+              <br />
+              <br />
+              Este software permite-lhe ter um <b>website com área de cliente</b> integrada e track & trace onde os seus
+              clientes podem realizar e consultar envios, recolhas, reembolsos, faturação entre outros.
+              <br />
+              <br />
+              Permite-lhe ainda <b>configurar tabelas de preço</b>, e emitir a faturação automáticamente e ter uma
+              análise das
+              despesas e rentabilidade da frota.
+            </p>
+          </div>
+          <button type="button" class="btn blue text-white mt-5">Agendar Demonstração</button>
         </div>
-        <img
-          class="img-fluid computador"
-          style="float: right; margin-top: -490px; width: 35%"
-          src="./images/imagemComputador.png"
-          alt="computador"
-        />
+
+
+        <!-- Colocar Imagem-->
       </div>
+      <img class="img-fluid computador" style="float: right; margin-top: -520px; width: 40%"
+        src="./images/imagemTelemovel.png" alt="computador" />
+    </div>
+    <div class="banner-2image">
+    </div>
+    <di>
+    <div class="funcionalidades">
+      <div class="container">
+        <h1 class="titulofuncionalidades">Funcionalidades e Potencialidades</h1>
+        <h4>Aqui podemos-lhe oferecer tudo o que precisa!</h4>
 
-      <!-- Adapte-se a Nós-->
-      <div class="beneficios">
-        <div class="container">
-          <div class="col-lg-10">
-            <div class="texto-info-benificios">
-              <h1 class="noselect">Adapta-se ao seu negócio!</h1>
-              <h4>Benefícios</h4>
-            </div>
-            <div>
-              <ul class="lista-beneficios">
-                <li class="item-benefecios d-flex justify-content-between align-items-center mb-5">
-                  <div class="circle-points">
-                    <div class="circle"><span>1</span></div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+              <div class="card-body" style="padding-top: 50px;">
+                <div class="row">
+                  <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="./images/icon.svg" alt="computador"/>
+                    <h5>Criar Envios e Pedidos 
+                      de Recolha</h5>
                   </div>
-                  <div class="texto-beneficios">
-                    <h6 class="titulo-beneficios">Faturação e Contas Correntes Integradas</h6>
-                    <p style="color: #797b84">
-                      O Transgest integra já software de faturação, certificado pela AT, que lhe permite faturar tudo de forma
-                      automática. Integra ainda a possibilidade dos clientes consultarem a sua conta corrente.
-                    </p>
+                  <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="./images/icon.svg" alt="computador"/>
+                    <h5>Criar Envios e Pedidos 
+                      de Recolha</h5>
                   </div>
-                </li>
-                <li class="d-flex justify-content-between align-items-center mb-5">
-                  <div class="circle-points">
-                    <div class="circle"><span>2</span></div>
+                  <div class="col-lg-4 justify-content-center">
+                    <img src="./images/icon.svg" alt="computador"/>
+                    <h5>Criar Envios e Pedidos 
+                      de Recolha</h5>
                   </div>
-                  <div class="texto-beneficios">
-                    <h6 class="titulo-beneficios">Faturação e Contas Correntes Integradas</h6>
-                    <p style="color: #797b84">
-                      O Transgest integra já software de faturação, certificado pela AT, que lhe permite faturar tudo de forma
-                      automática. Integra ainda a possibilidade dos clientes consultarem a sua conta corrente.
-                    </p>
-                  </div>
-                </li>
-                <li class="d-flex justify-content-between align-items-center mb-5">
-                  <div class="circle-points">
-                    <div class="circle"><span>3</span></div>
-                  </div>
-                  <div class="texto-beneficios">
-                    <h6 class="titulo-beneficios">Faturação e Contas Correntes Integradas</h6>
-                    <p style="color: #797b84">
-                      O Transgest integra já software de faturação, certificado pela AT, que lhe permite faturar tudo de forma
-                      automática. Integra ainda a possibilidade dos clientes consultarem a sua conta corrente.
-                    </p>
-                  </div>
-                </li>
-              </ul>
+                </div>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
           </div>
-        </div>
       </div>
 
-      <!-- App Motoristas -->
+    </div>
+    <div class="localizacao">
+      <div class="container">
+        <div class="col-lg-7">
+          <div class="texto-info-localizacao">
+            <h1 class="noselect">Localização GPS</h1>
+            <h2>Viaturas e Motoristas</h2>
+          </div>
+          <div class="paragrafo-localizacao">
+            <p style="color: #797b84">
+              <strong class="info-afirmacoes">Localize em tempo real viaturas e motoristas.</strong><br>
+              Consulte os trajetos e calcule de forma automática os tempos restantes para entrega das mercadorias.
+              Consulte alertas sobre Consumos, Ralentis, Velocidade Excessiva, Roubo ou Fraude nos Abastecimentos.
+              <br>
+              <br>
 
-      <!-- Solução -->
-      <div class="solucao">
-        <div class="container">
-          <div class="col-lg-7">
-            <div class="texto-solucao">
-              <h1 class="noselect">App para Motoristas</h1>
-              <p>Toda a informação sobre nós aqui</p>
+              <strong class="info-afirmacoes">Já possui localização de frota?</strong><br>
+              Integramos também com os melhores parceiros nacionais.
+            </p>
+          </div>
+        </div>
+        <!-- Colocar Imagem-->
+      </div>
+      <img class="img-fluid computador" style="float: right; margin-top: -350px; margin-right: 150px; width: 23%"
+        src="./images/localizacao.svg" alt="computador" />
+    </div>
+    </div>
+    <div class="integrar">
+      <div class="container">
+        <div class="col-lg-6">
+          <div class="texto-integrar">
+            <h1 class="noselect">Integre com os seus parceiros</h1>
+          </div>
+          <div class="paragrafo-integrar">
+            <p style="color: #797b84">
+              Submeta instantâneamente os seus envios para o <br>sistema de outra transportadora.
+              Imprima as respetivas etiquetas e permita que o sistema atualize estados automáticamente.
+              <br>
+              <br>
+              <strong>Parceiros</strong>
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="logos2">
+                <h1>llllllllllllllllllllllllllllllllllllllll</h1>
+              </div>
             </div>
-            <div class="paragrafo-solucao">
-              <p style="color: #797b84">
-                O <b>Transgest</b> é uma programa online desenvolvido especialmente para
-                <b>empresas de transporte de mercadorias e logística.</b>
-                <br />
-                <br />
-                É uma solução que permite às empresas do setor centralizar todo o seu trabalho diário numa
-                <b>única plataforma</b> e evitando que seja necessário usar vários programas ou ficheiros excel para o trabalho
-                diário.
-                <br />
-                <br />
-                Este software permite-lhe ter um <b>website com área de cliente</b> integrada e track & trace onde os seus
-                clientes podem realizar e consultar envios, recolhas, reembolsos, faturação entre outros.
-                <br />
-                <br />
-                Permite-lhe ainda <b>configurar tabelas de preço</b>, e emitir a faturação automáticamente e ter uma análise das
-                despesas e rentabilidade da frota.
-              </p>
+          </div>
+        </div>
+
+        <!-- Colocar Imagem-->
+      </div>
+      <img class="img-fluid computador" style="float: right; margin-top: -370px; margin-right: 150px; width: 23%"
+        src="./images/integrar.svg" alt="computador" />
+    </div>
+    <div class="solucao">
+      <div class="container">
+        <div class="col-lg-7">
+          <div class="texto-solucao">
+            <h1 class="noselect">Perguntas Frequentes</h1>
+
+          </div>
+          <div class="paragrafo-solucao">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
+                </div>
+              </div>
             </div>
-            <button type="button" class="btn blue text-white mt-5">Agendar Demonstração</button>
+
           </div>
 
-          <!-- Colocar Imagem-->
         </div>
-        <img
-          class="img-fluid computador"
-          style="float: right; margin-top: -520px; width: 40%"
-          src="./images/imagemTelemovel.png"
-          alt="computador"
-        />
       </div>
-    </main>
+    </div>
+    <img class="img-fluid computador" style="float: right; margin-top: -290px; margin-right: 150px; width: 23%"
+      src="./images/perguntas.svg" alt="computador" />
+    </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript">
-      var nav = document.querySelector("nav");
-      window.addEventListener("scroll", function () {
-        if (window.pageYOffset > 100) {
-          nav.classList.add("color-navbar", "shadow");
-        } else {
-          nav.classList.remove("color-navbar", "shadow");
-        }
-      });
-    </script>
-  </body>
+    <div class="banner-2image">
+    </div>
+    <div class="Funcionalidades">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    </div>
+
+
+
+  </main>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+    var nav = document.querySelector("nav");
+    window.addEventListener("scroll", function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add("color-navbar", "shadow");
+      } else {
+        nav.classList.remove("color-navbar", "shadow");
+      }
+    });
+  </script>
+</body>
+
 </html>

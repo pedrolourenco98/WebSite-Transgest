@@ -126,6 +126,9 @@ table {
 body {
   font-family: "Poppins", sans-serif;
 }
+b{
+  font-weight: 600;
+}
 
 .btn {
   border-radius: 55px;
@@ -167,6 +170,13 @@ body {
   background-size: cover;
   height: 100vh;
 }
+.banner-2image {
+  background-image: url("../images/fundodois.svg");
+  background-size:auto;
+  height: 40vh;
+  background-repeat: no-repeat;
+  margin-top: 300px;
+}
 
 .texto-info {
   margin-bottom: 24px;
@@ -206,10 +216,13 @@ body {
   justify-content: space-between;
   margin-bottom: 24px;
 }
+.textoligacao{
+  color: #304574;
+}
 
 .texto-solucao h1 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   color: #3080fd;
   margin-bottom: 8px;
 }
@@ -232,6 +245,14 @@ body {
   padding-top: 64px;
   padding-bottom: 64px;
 }
+.titulo-beneficios{
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 600;
+  color:#666666;
+  margin-bottom: 10px;
+
+}
 
 .texto-info-benificios {
   margin-bottom: 48px;
@@ -239,7 +260,7 @@ body {
 
 .texto-info-benificios h1 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   color: #304574;
   margin-bottom: 8px;
 }
@@ -254,7 +275,115 @@ body {
 .list-beneficios li {
   margin-bottom: 32px;
 }
+.localizacao {
+  padding-top: 64px;
+  padding-bottom: 200px;
+}
+.paragrafo-localizacao{
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.texto-localizacao{
+  line-height: 1.5;
 
+}
+.texto-info-localizacao {
+  margin-bottom: 48px;
+}
+
+.texto-info-localizacao h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #3080fd;
+  margin-bottom: 8px;
+}
+
+.texto-info-localizacao h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #304574;
+  margin-bottom: 8px;
+}
+.info-afirmacoes{
+  font-weight:600;
+  color:#304574;
+}
+.integrar {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.integrar {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.integrar h1{
+  font-size: 32px;
+  font-weight: 700;
+  color: #304574;
+  margin-bottom: 8px;
+
+}
+.texto-integrar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.textoligacao{
+  color: #304574;
+}
+
+.texto-integrar h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #304574;
+  margin-bottom: 8px;
+}
+.integrar strong{
+  font-size: 18px;
+  font-weight: 600;
+  color: #b6b7b9;
+  margin-bottom: 8px;
+}
+.texto-integrar p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.paragrafo-integrar p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.titulofuncionalidades{
+  font-size: 32px;
+  font-weight: 1000;
+  margin-top: -270px;
+  color: #fff; 
+}
+.funcionalidades h4{
+  color: #fff;
+  font-weight: 300;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.card{
+  border: none;
+  margin-top: 50px;
+  height: 400px;
+  border-radius: 20px;
+  
+}
+.funcionalidades h5{
+  font-size: 15px;
+  font-weight: 600;
+  color: #666666;
+  margin-bottom: 8px;
+}
 .circle-points {
   padding: 20px;
   background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23A2B3ECFF' stroke-width='3' stroke-dasharray='2%2c 10' stroke-dashoffset='33' stroke-linecap='butt'/%3e%3c/svg%3e");
@@ -282,6 +411,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 
 @media (max-width: 575.98px) {
   .texto-info h1 {
