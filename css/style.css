@@ -153,6 +153,9 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
+b{
+  font-weight: 600;
+}
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -254,6 +257,7 @@ p {
   height: 80vh;
   padding-top: 72px;
   padding-bottom: 140px;
+  background-color: #FCFCFC;
 }
 
 .sobrenos:hover {
@@ -261,11 +265,20 @@ p {
 }
 
 .circulo-pontilhado {
+  width: 90px;
+  height: 90px;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23A2B3ECFF' stroke-width='3' stroke-dasharray='2%2c 10' stroke-dashoffset='33' stroke-linecap='butt'/%3e%3c/svg%3e");
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:10px;
 }
 
 .titulo-beneficios {
   font-size: 16px;
   font-weight: 600;
+  color: #666666;
 }
 
 .circulo {
@@ -277,6 +290,15 @@ p {
   text-align: center;
   background:#3080FD;
   margin-bottom: 12px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+ -webkit-align-items: center;
+ -webkit-box-align: center;
+ -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 /*telefone*/
@@ -293,6 +315,10 @@ p {
   .computador {
     display: none;
   }
+  header {
+  background:#2873E8;
+  margin-bottom: 50px;
+}
 }
 
 @media (max-width: 767.98px) {
@@ -304,5 +330,9 @@ p {
 @media (max-width: 991.98px) {
   .computador {
     display: none;
+  }
+  header {
+    background:#2873E8;
+    margin-bottom: 50px;
   }
 }
