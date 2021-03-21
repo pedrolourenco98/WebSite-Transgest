@@ -138,6 +138,10 @@ body {
   background-color: #ef4166;
 }
 
+.blue {
+  background-color: #3080fd;
+}
+
 /* Barra de Navegação */
 .logotipo {
   width: 170px;
@@ -218,7 +222,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  text-align: left;
+  text-align: justify;
   text-justify: inter-word;
 }
 
